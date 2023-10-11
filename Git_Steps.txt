@@ -1,0 +1,29 @@
+1) Create a Public Repo with the required information in the GitHUB - Done.
+
+2) Git Remote URL for Repository: https://github.com/SriramSundaramoorthy/Practise-11OCT.git
+
+3) Creating a Git Auth Token. - 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
+
+4) Username: sriramsundaramoorthy.
+
+5) We need to identify the project folder which you need to store into the repository.
+
+6) We need to open Git Bash inside the project directory.
+
+7) Use Git Status command to view the status of Git Repository.
+
+8) Initialize a empty git repository.: git init -b <repo name>
+
+9) Add the list of files in the Project folder for tracking: 1) git add . 2)  git add ./7-OCT-2023/code_7OCT.py
+
+10) After Tracking, We need to Commit the files to the local repository(Our working Directory) : git commit -m "Message for commit"
+
+11) Git Repository details to be added to Git.
+
+git remote add github https://github.com/SriramSundaramoorthy/Practise-11OCT.git
+
+12) View the remote repositories configured for the Project directory: git remote -v
+
+13) To Push the Local Changes to the Git hub Respository: git push github main
+
+14) If any changes are present in the git hub repo which is not present in the Local : First pull it and then push it: git pull github
